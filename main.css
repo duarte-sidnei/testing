@@ -1,0 +1,53 @@
+body, html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: #fff6bb;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body #bg {
+  background-color: #bb0000ce;
+  -webkit-clip-path: polygon(89% 0, 96% 50%, 89% 100%, 5% 100%, 12% 50%, 6% 0);
+          clip-path: polygon(89% 0, 96% 50%, 89% 100%, 5% 100%, 12% 50%, 6% 0);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+}
+
+section {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60%;
+  height: 60%;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 2em;
+  color: #fff;
+}
+/*# sourceMappingURL=main.css.map */
